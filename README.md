@@ -4,6 +4,8 @@ This is an App with functional both Front and Back End with a MySQL DB communica
 ---
 
 ## How to:
+- I **strongly** recommend you readn and follow these steps in order:
+
 <details>
 	<summary>
 		<strong>⏳	Requirements</strong>
@@ -13,19 +15,6 @@ This is an App with functional both Front and Back End with a MySQL DB communica
 
   - The database used was **MySQL** and `MySQL Workbench v8` for development
 
-</details>
-
-<details>
-  <summary>
-    <strong>🧩 Installing Dependencies</strong>
-  </summary> <br>
-  
-  - Upon *cloning* the directory, from the root directory, simply run either:
-    - `npm install`: Installs all dependencies in *both* **Front End** and **Back End**.
-    - `npm run dev:prestart`: Same as above, but also initializes `Sequelize` after installation. Recommended if installing for the first time.
-  
-  - You can also run `npm install` while inside the `front-end` or `back-end` directories to install their dependencies separately, if you wish to do so. This is not recommended as there are also dependencies that must be installed from the App's *root* directory.
-  
 </details>
 
 <details>
@@ -40,6 +29,19 @@ This is an App with functional both Front and Back End with a MySQL DB communica
   - Back-End's **.env.EXAMPLE** : Two edits must be made on top of renaming the file to `.env`:
     - On *line 5* change the value **after** `MYSQL_USER=` to your MySQL Workbench's *username*.
     - On *line 6* change the value **after** `MYSQL_PASSWORD=` to your MySQL Workbench's *password*.
+</details>
+
+<details>
+  <summary>
+    <strong>🧩 Installing Dependencies</strong>
+  </summary> <br>
+  
+  - Upon *cloning* the directory, from the root directory, simply run either:
+    - `npm install`: Installs all dependencies in *both* **Front End** and **Back End**.
+    - `npm run dev:prestart`: Same as above, but also initializes `Sequelize` after installation. Recommended if installing for the first time.
+  
+  - You can also run `npm install` while inside the `front-end` or `back-end` directories to install their dependencies separately, if you wish to do so. This is not recommended as there are also dependencies that must be installed from the App's *root* directory.
+  
 </details>
 
 <details>
