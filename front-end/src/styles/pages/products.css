@@ -1,0 +1,11 @@
+body {
+  background-color: #1e1b1b;
+  color: aliceblue;
+}
+
+.productList {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  width: 80%;
+}
