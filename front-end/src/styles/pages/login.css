@@ -1,0 +1,17 @@
+body {
+  align-items: center;
+  background-color: rgb(14, 15, 15);
+  color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  padding: 25vh;
+}
+
+form {
+  background-color: rgb(26, 25, 25);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
