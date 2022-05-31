@@ -14,7 +14,7 @@ This is an App with functional both Front and Back End with a MySQL DB communica
   - This project was developed with `node v16.9.1` and `npm v8.5.5` and it is recommended to have such versions.
 
   - The database used was **MySQL** and `MySQL Workbench v8` for development
-
+  ---
 </details>
 
 <details>
@@ -29,6 +29,7 @@ This is an App with functional both Front and Back End with a MySQL DB communica
   - Back-End's **.env.EXAMPLE** : Two edits must be made on top of renaming the file to `.env`:
     - On *line 5* change the value **after** `MYSQL_USER=` to your MySQL Workbench's *username*.
     - On *line 6* change the value **after** `MYSQL_PASSWORD=` to your MySQL Workbench's *password*.
+  ---
 </details>
 
 <details>
@@ -41,7 +42,7 @@ This is an App with functional both Front and Back End with a MySQL DB communica
     - `npm run dev:prestart`: Same as above, but also initializes `Sequelize` after installation. Recommended if installing for the first time.
   
   - You can also run `npm install` while inside the `front-end` or `back-end` directories to install their dependencies separately, if you wish to do so. This is not recommended as there are also dependencies that must be installed from the App's *root* directory.
-  
+  ---
 </details>
 
 <details>
@@ -55,6 +56,7 @@ This is an App with functional both Front and Back End with a MySQL DB communica
     - When executed from inside `/back-end` it will open a port for http requests.
   
   You will need **both** ends running **at the same time** for the App to work!
+  ---
 </details>
 
 <details>
@@ -68,6 +70,7 @@ This is an App with functional both Front and Back End with a MySQL DB communica
     - `npm stop` : Stops the App and kills any `pm2` instance currently running.
   
   - You can also run `npm start` separately while inside either **front-end** or **back-end** directories, if you wish to do so.
+  ---
 </details>
 
 <details>
@@ -90,5 +93,5 @@ This is an App with functional both Front and Back End with a MySQL DB communica
     - Email: `zebirita@email.com`
     - Password: `$#zebirita#$`
     - About: This is a customer account. It can view the list of Products for sale received from the back-end, add any number of items and send it to its cart, where it can proceed to checkout and confirmation. Upon said confirmation, a new sale will added towards the selected Seller, which will be updated in real time within the Database.
-  
+  ---
 </details>
