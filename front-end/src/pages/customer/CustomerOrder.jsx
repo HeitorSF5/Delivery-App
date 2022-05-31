@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import NavBar from '../../components/NavBar';
 import OrderCard from '../../components/OrderCard';
-// import dataMocked from '../../data/dataMocked';
-// import api from '../../services/api';
-// import PropTypes from 'prop-types';
 
 function CustomerOrder() {
   const [customer, setCustomer] = useState([]);
@@ -14,7 +11,6 @@ function CustomerOrder() {
       data: [],
     };
 
-    // const data = dataMocked;
     setCustomer((response.data.length > 0) ? response.data : data);
   }
 
@@ -40,7 +36,5 @@ function CustomerOrder() {
     </div>
   );
 }
-
-// CustomerOrder.propTypes = {};
 
 export default CustomerOrder;
