@@ -69,7 +69,6 @@ This is an App with functional both Front and Back End with a MySQL DB communica
     - `npm run dev` : Clears ports `3000` and `3001` and initializes a `pm2` process. In this mode any changes are refreshed to be viewed in real time.
     - `npm stop` : Stops the App and kills any `pm2` instance currently running.
   
-  - You can also run `npm start` separately while inside either **front-end** or **back-end** directories, if you wish to do so.
   ---
 </details>
 
@@ -98,6 +97,7 @@ This is an App with functional both Front and Back End with a MySQL DB communica
   - Upon clicking `Register`, you must enter an email and password:
     - **Email**: In total it **must** be at least `12 characters long`. It will also not let you register an invalid email format.
     - **Password**: Must be *at least* `6 characters long`. You can use any characters you wish.
+    - If succcessful, a new user of the `Customer` type will be created and inserted into the database. You can login with this new user as well!
   
   ---
 </details>
