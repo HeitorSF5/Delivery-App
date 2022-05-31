@@ -93,5 +93,11 @@ This is an App with functional both Front and Back End with a MySQL DB communica
     - Email: `zebirita@email.com`
     - Password: `$#zebirita#$`
     - About: This is a customer account. It can view the list of Products for sale received from the back-end, add any number of items and send it to its cart, where it can proceed to checkout and confirmation. Upon said confirmation, a new sale will added towards the selected Seller, which will be updated in real time within the Database.
+  
+  *Registering a new User:*
+  - Upon clicking `Register`, you must enter an email and password:
+    - **Email**: In total it **must** be at least `12 characters long`. It will also not let you register an invalid email format.
+    - **Password**: Must be *at least* `6 characters long`. You can use any characters you wish.
+  
   ---
 </details>
