@@ -95,7 +95,8 @@ This is an App with functional both Front and Back End with a MySQL DB communica
   
   *Registering a new User:*
   - Upon clicking `Register`, you must enter an email and password:
-    - **Email**: In total it **must** be at least `12 characters long`. It will also not let you register an invalid email format.
+    - **Name**: Must be at least `12 characters long`
+    - **Email**: It must be a valid email format. e.g.: `example@example.com`
     - **Password**: Must be *at least* `6 characters long`. You can use any characters you wish.
     - If succcessful, a new user of the `Customer` type will be created and inserted into the database. You can login with this new user as well!
   
