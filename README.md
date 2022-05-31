@@ -4,7 +4,7 @@ This is an App with functional both Front and Back End with a MySQL DB communica
 ---
 
 ## How to:
-- I **strongly** recommend you readn and follow these steps in order:
+- I **strongly** recommend you read and follow these steps in order:
 
 <details>
 	<summary>
