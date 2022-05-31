@@ -14,10 +14,10 @@ export default function NavBarButtons() {
           <a
             className="nav-link"
             aria-current="page"
-            href="myOrders"
+            href="orders"
             data-testid="customer_products__element-navbar-link-orders"
           >
-            MEUS PEDIDOS
+            Orders
           </a>
         </li>
 
@@ -39,7 +39,7 @@ export default function NavBarButtons() {
             data-testid="customer_products__element-navbar-link-logout"
             onClick={ handleLogout }
           >
-            SAIR
+            LOGOUT
           </Link>
         </li>
       </ul>
