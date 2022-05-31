@@ -13,7 +13,7 @@ This is an App with functional both Front and Back End with a MySQL DB communica
 
   - This project was developed with `node v16.9.1` and `npm v8.5.5` and it is recommended to have such versions.
 
-  - The database used was **MySQL** and `MySQL Workbench v8` for development
+  - The database used was **MySQL** and `MySQL Workbench v8` for development.
   ---
 </details>
 
@@ -24,7 +24,7 @@ This is an App with functional both Front and Back End with a MySQL DB communica
   
   This application is made to adapt to each dev's environment, and for that there are two `.env` files that must be adjusted accordingly. Inside each folder, `back-end` and `front-end`, there is a `.env.EXAMPLE` file included. These are made to be renamed into `.env` and edited so that they work on your environment:
   
-  - Front-End's **.env.EXAMPLE** : No changes should be necessary, simply rename the file appropriately to `.env`
+  - Front-End's **.env.EXAMPLE** : No changes should be necessary, simply rename the file appropriately to `.env`.
   
   - Back-End's **.env.EXAMPLE** : Two edits must be made on top of renaming the file to `.env`:
     - On *line 5* change the value **after** `MYSQL_USER=` to your MySQL Workbench's *username*.
@@ -79,26 +79,27 @@ This is an App with functional both Front and Back End with a MySQL DB communica
   
   To properly test the Database, Login and general App functionality you will need to know some usernames and passwords already present within the Database. Of course, you can always make a User yourself by utilizing the button *below* the Login button, which creates a `Customer Account`. But regardless, these are the users present in the DB upon seeding:
   - **Admin**
-    - Email: `adm@deliveryapp.com`
-    - Password: `--adm2@21!!--`
+    - Email: `adm@deliveryapp.com`.
+    - Password: `--adm2@21!!--`.
     - About: This is the administrator of the App, presumably the owner. It can **create** and **delete** new users, be it a Seller or a Customer. Only the Admin is able to create new Sellers. Any new user created or deleted will be updated in real time inside the database. The admin cannot delete itself or create any other Admin for the time being.
   
   - **Seller**
-    - Email: `fulana@deliveryapp.com`
-    - Password: `fulana@123`
+    - Email: `fulana@deliveryapp.com`.
+    - Password: `fulana@123`.
     - About: This is a seller account. It can view and manage its sales. It does **not** have access to the product list for sale for now. Any new sale is can be sent towards this account and it will be updated in real time through the database.
   
   - **Customer**
-    - Email: `zebirita@email.com`
-    - Password: `$#zebirita#$`
+    - Email: `zebirita@email.com`.
+    - Password: `$#zebirita#$`.
     - About: This is a customer account. It can view the list of Products for sale received from the back-end, add any number of items and send it to its cart, where it can proceed to checkout and confirmation. Upon said confirmation, a new sale will added towards the selected Seller, which will be updated in real time within the Database.
   
   *Registering a new User:*
   - Upon clicking `Register`, you must enter an email and password:
-    - **Name**: Must be at least `12 characters long`
-    - **Email**: It must be a valid email format. e.g.: `example@example.com`
+    - **Name**: Must be at least `12 characters long`.
+    - **Email**: It must be a valid email format. e.g.: `example@example.com`.
     - **Password**: Must be *at least* `6 characters long`. You can use any characters you wish.
     - If succcessful, a new user of the `Customer` type will be created and inserted into the database. You can login with this new user as well!
+    - **Note**: You will not be able to click `submit` until **all** fields satisfy their respective criteria.
   
   ---
 </details>
