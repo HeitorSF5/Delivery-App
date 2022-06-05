@@ -79,18 +79,18 @@ This is an App with functional both Front and Back End with a MySQL DB communica
   
   To properly test the Database, Login and general App functionality you will need to know some usernames and passwords already present within the Database. Of course, you can always make a User yourself by utilizing the button *below* the Login button, which creates a `Customer Account`. But regardless, these are the users present in the DB upon seeding:
   - **Admin**
-    - Email: `adm@deliveryapp.com`.
-    - Password: `--adm2@21!!--`.
+    - Email: `adm@deliveryapp.com`
+    - Password: `--adm2@21!!--`
     - About: This is the administrator of the App, presumably the owner. It can **create** and **delete** new users, be it a Seller or a Customer. Only the Admin is able to create new Sellers. Any new user created or deleted will be updated in real time inside the database. The admin cannot delete itself or create any other Admin for the time being.
   
   - **Seller**
-    - Email: `fulana@deliveryapp.com`.
-    - Password: `fulana@123`.
+    - Email: `fulana@deliveryapp.com`
+    - Password: `fulana@123`
     - About: This is a seller account. It can view and manage its sales. It does **not** have access to the product list for sale for now. Any new sale is can be sent towards this account and it will be updated in real time through the database.
   
   - **Customer**
-    - Email: `zebirita@email.com`.
-    - Password: `$#zebirita#$`.
+    - Email: `zebirita@email.com`
+    - Password: `$#zebirita#$`
     - About: This is a customer account. It can view the list of Products for sale received from the back-end, add any number of items and send it to its cart, where it can proceed to checkout and confirmation. Upon said confirmation, a new sale will added towards the selected Seller, which will be updated in real time within the Database.
   
   *Registering a new User:*
