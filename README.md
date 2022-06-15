@@ -103,3 +103,14 @@ This is an App with functional both Front and Back End with a MySQL DB communica
   
   ---
 </details>
+
+<details>
+  <summary>
+    <strong>👷 Work In Progress</strong>
+  </summary> <br>
+  
+  I am still implementing more features and bug-hunting, since the original project did not actually require many features that are notably absent, such as:
+  - `User page`: There is no "personal" page *per se*, despite your own username being clickable, which just leads you to a non-existing page. I intend to rectify that.
+  - `Style`: Yes, my eyes also burn due to the placeholder colors and layout. 
+  - `Local Storage`: I am not a big fan myself of storing too many things within a browser's local storage, so I am looking for an alternative without having to restructure too much.
+</details>
