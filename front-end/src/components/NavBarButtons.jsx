@@ -24,7 +24,7 @@ export default function NavBarButtons() {
         <li className="nav-item">
           <a
             className="nav-link"
-            href="myUser"
+            // href="myUser"
             data-testid="customer_products__element-navbar-user-full-name"
           >
             { name || 'teste'}
