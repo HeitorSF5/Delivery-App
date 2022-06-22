@@ -86,7 +86,7 @@ function Login() {
             data-testid="common_login__button-register"
             type="button"
           >
-            Ainda não tenho conta
+            Register
           </button>
         </Link>
         {

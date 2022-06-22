@@ -8,8 +8,9 @@ function NavBar({ pageName }) {
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
           <a
-            className="navbar-brand"
-            href="myProduct"
+            className="nav-link"
+            // href={pageName === "Pedidos" ? "orders" : "products"}
+            // href={pageName}
             data-testid="customer_products__element-navbar-link-products"
           >
             {pageName}

@@ -39,8 +39,6 @@ function Register() {
         token: registerUser.data.accessToken,
       };
       localStorage.setItem('user', JSON.stringify(userData));
-
-      // localStorage.userData = JSON.stringify(userData);
       navigate('/customer/products');
     } catch (error) {
       console.log(error);
@@ -90,7 +88,7 @@ function Register() {
           type="submit"
           disabled={ disabled }
         >
-          CADASTRAR
+          Submit
         </button>
         {
           user.message && (

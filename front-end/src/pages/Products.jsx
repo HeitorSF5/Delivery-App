@@ -61,24 +61,23 @@ function Products() {
         </button>
       </footer>
     );
-    //  Aqui o link acima deve estar desabilitado caso o carrinho esteja vazio - ou seja, com o preço final 0,00
+    // The link above should be disable in case the total cart price is ZERO
   }
 
   useEffect(() => {
     if (myProds.length === 0) fetchProducts();
     callTotalPrice();
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // if (load) return <p> LOADING </p>;
   return (
     <main>
       PRODUCTS
-      <Navbar pageName="Produtos" />
+      <Navbar pageName="Products" />
       { isLoading ? <Loading /> : (
         <span className="productList">
-          { myProds }
           { checkoutField() }
+          { myProds }
         </span>
       )}
     </main>
